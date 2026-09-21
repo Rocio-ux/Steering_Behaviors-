@@ -44085,8 +44085,36 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4850161331088109135, guid: fab7071a9be3c764ca6a8d1ab4b5c02e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 740421832678941102}
   m_SourcePrefab: {fileID: 100100000, guid: fab7071a9be3c764ca6a8d1ab4b5c02e, type: 3}
+--- !u!1 &740421832678941101 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4850161331088109135, guid: fab7071a9be3c764ca6a8d1ab4b5c02e, type: 3}
+  m_PrefabInstance: {fileID: 740421832678941100}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &740421832678941102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740421832678941101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5afc85ce050a684392d0f49c84ed4ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Chaser
+  wanderSpeed: 5
+  turnInterval: 4
+  minTurnAngle: 45
+  maxTurnAngle: 100
+  detectRadius: 5
+  loseRadius: 8
+  arriveRadius: 2
+  stopRadius: 1
 --- !u!1 &933322628031800509
 GameObject:
   m_ObjectHideFlags: 0
@@ -44189,8 +44217,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4315039472783121028, guid: eb23a736ba534894cac2b5b06fe1ce32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1509090093040980672}
   m_SourcePrefab: {fileID: 100100000, guid: eb23a736ba534894cac2b5b06fe1ce32, type: 3}
+--- !u!1 &1509090093040980671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4315039472783121028, guid: eb23a736ba534894cac2b5b06fe1ce32, type: 3}
+  m_PrefabInstance: {fileID: 1509090093040980670}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1509090093040980672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509090093040980671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b795bcb692369274dbeb90e928a0bcfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coward
+  wanderSpeed: 5
+  fleeSpeed: 6
+  turnInterval: 4
+  minTurnAngle: 45
+  maxTurnAngle: 100
+  detectRadius: 5
+  loseRadius: 8
 --- !u!1 &1636765720139997184
 GameObject:
   m_ObjectHideFlags: 0
@@ -44918,8 +44973,32 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4080913331580703680, guid: 60cd851b645af1844b2af5e3b09c19fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8891064875211047161}
   m_SourcePrefab: {fileID: 100100000, guid: 60cd851b645af1844b2af5e3b09c19fa, type: 3}
+--- !u!1 &8891064875211047160 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4080913331580703680, guid: 60cd851b645af1844b2af5e3b09c19fa, type: 3}
+  m_PrefabInstance: {fileID: 8891064875211047159}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8891064875211047161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8891064875211047160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a580bdef575264f4f81e979b39454bdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Wanderer
+  wanderSpeed: 5
+  turnInterval: 5
+  minTurnAngle: 45
+  maxTurnAngle: 100
 --- !u!212 &8926212909213701619
 SpriteRenderer:
   serializedVersion: 3
